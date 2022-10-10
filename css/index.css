@@ -1,0 +1,998 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Slab:wght@400;700&display=swap');
+
+body {
+    background: #fdfdfe;
+    margin: 0;
+}
+
+/* Header */
+header {
+    width: 100%;
+    height: 5rem;
+}
+
+.header-logo {
+    position: relative;
+    left: 4%;
+    top: 2rem;
+}
+
+/*!* Section 1 *!*/
+body main section:first-child {
+    width: 100%;
+    height: 35rem;
+}
+
+.section-row {
+    position: relative;
+    left: 4%;
+    width: 70%;
+    top: 5rem;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1rem;
+}
+
+.section-row li {
+    float: left;
+}
+
+.section-row li:first-child {
+    list-style-image: url("../images/globe.png");
+    margin-right: 1rem;
+}
+
+.section-row li:nth-child(2) {
+    list-style-image: url("../images/clock.png");
+    margin-left: 2rem;
+    margin-right: 3rem;
+
+}
+
+.section-row li:last-child {
+    list-style-image: url("../images/mini_calendar.png");
+    margin-right: 2rem;
+}
+
+.section-row2 {
+    position: relative;
+    left: 4%;
+    top: 2rem;
+    width: 40rem;
+    font-family: 'Roboto Slab', serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 5rem;
+    line-height: 101.38%;
+}
+
+.section-row3 {
+    position: relative;
+    width: 30rem;
+    left: 4%;
+
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.2em;
+    line-height: 150%;
+}
+
+.section-image {
+    position: absolute;
+    left: 70%;
+    top: 12rem;
+    z-index: 1;
+}
+
+.section-shadow {
+    position: absolute;
+    left: 70%;
+    top: 33rem;
+}
+
+/* Section 1  -> Phone*/
+@media (min-width: 321px) and (max-width: 991px) {
+    body main section:first-child {
+        height: 65rem;
+    }
+
+    .section-row {
+        left: 4%;
+        width: 80%;
+    }
+
+    .section-row li:first-child {
+        margin-right: 0;
+    }
+
+    .section-row li:nth-child(2) {
+        margin-left: 3rem;
+        margin-right: 3rem;
+
+    }
+
+    .section-row li:last-child {
+        margin-right: 0;
+    }
+
+    .section-image {
+        position: relative;
+        top: 5rem;
+        left: 40%;
+    }
+
+    .section-shadow {
+        position: relative;
+        top: 6rem;
+        left: 10%;
+    }
+}
+
+
+/* Section 2*/
+body main section:nth-child(2) {
+    width: 100%;
+    height: 20rem;
+}
+
+.section2-container {
+    position: relative;
+    -ms-flex-line-pack: center;
+    align-content: center;
+    width: 30rem;
+    height: 14rem;
+    left: 30%;
+    top: 3rem;
+    background: #1E4681;
+    border-radius: 5px;
+    color: white;
+}
+
+.section2-container article {
+    position: relative;
+    top: 1rem;
+    left: 1rem;
+    width: 27rem;
+
+    font-family: 'Roboto Slab', serif;
+    font-style: normal;
+    font-size: 1.6rem;
+    line-height: 130%;
+}
+
+.section2-container span {
+
+    position: relative;
+    top: 3rem;
+    left: 17rem;
+
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.2rem;
+    line-height: 130%;
+    text-align: right;
+    color: #FFFFFF;
+}
+
+/* Section 2  -> Phone*/
+@media (min-width: 321px) and (max-width: 991px) {
+
+    .section2-container {
+        top: 0;
+        height: 15rem;
+        width: 36rem;
+        left: 13%;
+    }
+
+    .section2-container article {
+        top: 1rem;
+        left: 1rem;
+        width: 34rem;
+        font-size: 1.9rem;
+    }
+
+    .section2-container span {
+        top: 4rem;
+        left: 20rem;
+        font-size: 1.2rem;
+    }
+
+}
+
+/* Section 3*/
+body main section:nth-child(3) {
+    width: 100%;
+    height: 35rem;
+}
+
+.section3-header {
+    position: relative;
+    left: 4%;
+    width: 20rem;
+    font-family: 'Roboto Slab', serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 3.5rem;
+    line-height: 101.38%;
+
+}
+
+.section3-article {
+    position: relative;
+    width: 42rem;
+    left: 4%;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.5rem;
+    line-height: 150%;
+}
+
+.section3-image {
+    position: absolute;
+    left: 70%;
+    top: 70rem;
+    z-index: 1;
+}
+
+.section3-shadow {
+    position: absolute;
+    left: 70%;
+    top: 88rem;
+}
+
+/*Section 3 -> Tablet*/
+@media (min-width: 992px) and (max-width: 1279px) {
+
+    .section3-article {
+        width: 39rem;
+    }
+
+    .section3-image {
+        left: 64%;
+    }
+
+    .section3-shadow {
+        left: 62%;
+    }
+}
+
+/*Section 3 -> Phone*/
+@media (min-width: 321px) and (max-width: 991px) {
+    body main section:nth-child(3) {
+        width: 100%;
+        height: 65rem;
+    }
+
+    .section3-article {
+        width: 40rem;
+    }
+
+    .section3-image {
+        position: relative;
+        top: 5rem;
+        left: 40%;
+    }
+
+    .section3-shadow {
+        top: 150rem;
+        left: 40%;
+    }
+}
+
+/* Section 4*/
+body main section:nth-child(4) {
+    position: relative;
+    width: 100%;
+    height: 25rem;
+}
+
+.section4-img {
+    position: absolute;
+    left: 9%;
+    z-index: 1;
+}
+
+.section4-shadow {
+    position: absolute;
+    top: 11.5rem;
+    left: 10%;
+}
+
+.section4-container {
+    position: relative;
+    top: 2rem;
+    width: 50%;
+    left: 25%;
+    list-style: none;
+}
+
+.section4-container li {
+    float: left;
+    width: 12rem;
+    margin-right: 2rem;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    line-height: 130%;
+}
+
+.section4-container li > h5 {
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+.section4-container li > p {
+    font-weight: 400;
+    font-size: 1rem;
+}
+
+/*Section 4 -> Tablet*/
+@media (min-width: 992px) and (max-width: 1279px) {
+    body main section:nth-child(4) {
+        height: 25rem;
+    }
+    .section4-container {
+        left: 22rem;
+    }
+
+    .section4-container li {
+        margin-right: 1.2rem;
+    }
+}
+
+/*Section 4 -> Phone*/
+@media (min-width: 321px) and (max-width: 991px) {
+    body main section:nth-child(4) {
+        height: 30rem;
+    }
+
+    .section4-img,
+    .section4-shadow {
+        visibility: hidden;
+    }
+
+    .section4-container {
+        left: 5%;
+    }
+
+    .section4-container li {
+        white-space: nowrap;
+        margin-right: 12rem;
+    }
+}
+
+/* Section5 */
+body main section:nth-child(5) {
+    width: 100%;
+    height: 25rem;
+}
+
+.section5-header {
+    position: relative;
+    top: 2rem;
+    left: 4%;
+    width: 35rem;
+    font-family: 'Roboto Slab', serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 3.5rem;
+    line-height: 101.38%;
+}
+
+.section5-container {
+    position: relative;
+    top: 1rem;
+    left: 5%;
+    line-height: 130%;
+    width: 40rem;
+    height: 20rem;
+}
+
+.section5-container li {
+    float: left;
+    list-style: none;
+    width: 17rem;
+    margin-right: 7rem;
+
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    line-height: 130%;
+}
+
+.section5-container li h3 {
+    font-weight: 700;
+    font-size: 1.5rem;
+    color: #1E4681;
+}
+
+.section5-container li p {
+    font-weight: 400;
+    font-size: 1.1rem;
+}
+
+/*Section 5 -> Phone*/
+@media (min-width: 321px) and (max-width: 991px) {
+    body main section:nth-child(5) {
+        height: 42rem;
+    }
+
+    .section5-header {
+        top: 5rem;
+        height: 8rem;
+    }
+
+    .section5-container {
+        top: 5rem;
+        width: 50rem;
+    }
+}
+
+/* Section6 */
+body main section:nth-child(6) {
+    width: 100%;
+    height: 55rem;
+}
+
+.section6-header {
+    position: relative;
+    left: 4%;
+    top: 5rem;
+    width: 30rem;
+    font-family: 'Roboto Slab', serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 3.5rem;
+    line-height: 101.38%;
+}
+
+.section6-container {
+    position: relative;
+
+    left: 4%;
+    width: 45rem;
+    top: 5rem;
+
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.5rem;
+    line-height: 150%;
+}
+
+/*Section 6 ->Phone*/
+@media (min-width: 321px) and (max-width: 991px) {
+
+    .section6-container {
+        width: 33rem;
+    }
+}
+
+
+/* Section7 */
+body main section:nth-child(7) {
+    width: 100%;
+    height: 85rem;
+}
+
+.section7-header {
+    position: relative;
+    left: 4%;
+    width: 40rem;
+    font-family: 'Roboto Slab', serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 3.5rem;
+    line-height: 101.38%;
+
+}
+
+.section7-container {
+    position: relative;
+    list-style: none;
+    width: 85rem;
+    height: 70rem;
+    top: 3rem;
+    left: 2%;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    line-height: 130%;
+}
+
+.section7-container li {
+    float: left;
+    position: relative;
+    width: 22rem;
+    height: 21.5rem;
+    margin-top: 2rem;
+    margin-right: 2rem;
+    background: #FFFFFF;
+    -webkit-box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.25);
+    box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.25);
+    border-radius: 2rem;
+}
+
+.section7-container li img {
+    height: 52%;
+    width: 100%;
+}
+
+.section7-container li h5 {
+    position: relative;
+    margin-top: 1rem;
+    left: 1rem;
+    font-weight: 700;
+    font-size: 1.7rem;
+}
+
+.section7-container li p {
+    position: relative;
+    left: 1rem;
+    margin-top: 0;
+    font-weight: 400;
+    font-size: 1.3rem;
+    letter-spacing: 1px;
+}
+
+/*Section 7 ->Tablet*/
+@media (min-width: 992px) and (max-width: 1279px) {
+    body main section:nth-child(7) {
+        width: 100%;
+        height: 65rem;
+    }
+
+    .section7-container {
+        width: 55rem;
+        left: 1%;
+    }
+
+    .section7-container li {
+        position: relative;
+        width: 17rem;
+        height: 17rem;
+        margin: 0.7rem 0.7rem 0 0;
+    }
+
+    .section7-container li h5 {
+        position: relative;
+        margin-top: 6px;
+        left: 1rem;
+        font-weight: 700;
+        margin-bottom: 1rem;
+        font-size: 1.2rem;
+    }
+
+    .section7-container li p {
+        position: relative;
+        left: 1rem;
+        margin-top: 0;
+        font-weight: 400;
+        font-size: 0.8rem;
+    }
+}
+
+/*Section 7 ->Phone*/
+@media (min-width: 321px) and (max-width: 991px) {
+    body main section:nth-child(7) {
+        height: 190rem;
+    }
+
+    .section7-container {
+        width: 25rem;
+        left: 20%;
+        -ms-flex-line-pack: center;
+        align-content: center;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+    }
+
+    .section7-container li {
+        position: relative;
+        width: 20rem;
+        height: 20rem;
+    }
+}
+
+
+/* Section8 */
+body main section:nth-child(8) {
+
+    height: 55rem;
+    margin: 0;
+    background: #EFEFEF;
+}
+
+.section8-header {
+    position: relative;
+    top: 7rem;
+    width: 60rem;
+    height: 10rem;
+    left: 4%;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 700;
+    font-size: 3.5rem;
+}
+
+.section8-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    position: relative;
+    width: 50rem;
+    height: 30rem;
+    left: 4%;
+    top: 3rem;
+
+    border-radius: 2rem;
+    background-color: #FFFFFF;
+    -webkit-box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.25);
+    box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.25);
+
+}
+
+.section8-text {
+    position: relative;
+    left: 2rem;
+    top: 2rem;
+    width: 45rem;
+    height: 25rem;
+
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 1.3rem;
+}
+
+.section8-avatar-woman {
+    position: absolute;
+    top: 15rem;
+    left: 2rem;
+}
+
+.section8-name {
+    position: absolute;
+    left: 15rem;
+    width: 25rem;
+    top: 15rem;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 700;
+    font-size: 1.8rem;
+}
+
+.section8-fb-icon {
+    position: absolute;
+    width: 2rem;
+    height: 2rem;
+    top: 20rem;
+    left: 15rem;
+    border-radius: 0.5rem;
+
+    background-color: #3b5998;
+}
+
+/*Section 8 ->Phone*/
+@media (min-width: 321px) and (max-width: 992px) {
+    .section8-header {
+        width: 35rem;
+        margin-bottom: 7rem;
+    }
+
+    .section8-container {
+        width: 42rem;
+        height: 30rem;
+    }
+
+    .section8-text {
+        left: 2rem;
+        top: 2rem;
+        width: 38rem;
+        font-size: 1.3rem;
+    }
+
+    .section8-avatar-woman {
+        top: 17rem;
+        left: 2rem;
+    }
+
+    .section8-name {
+        left: 15rem;
+        width: 25rem;
+        top: 18rem;
+        font-size: 1.8rem;
+    }
+
+    .section8-fb-icon {
+        width: 2rem;
+        height: 2rem;
+        top: 23rem;
+        left: 15rem;
+    }
+}
+
+
+/* Section9 */
+body main section:nth-child(9) {
+
+    height: 55rem;
+    margin: 0;
+    padding: 5rem 0 0 0;
+    background-color: #9DC9C8;
+}
+
+.section9-header {
+    position: relative;
+    width: 75rem;
+    height: 10rem;
+    left: 4%;
+    top: 5rem;
+
+    font-family: 'Roboto Slab', serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 3.5rem;
+    line-height: 101.38%;
+}
+
+.section9-text {
+    position: relative;
+    width: 10rem;
+    height: 3rem;
+    left: 4%;
+    top: 1rem;
+
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.8rem;
+    line-height: 101.38%;
+}
+
+.section9-price {
+    position: relative;
+    width: 50rem;
+    height: 8rem;
+    left: 4%;
+    top: -5rem;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 6rem;
+    line-height: 101.38%;
+}
+
+.section9-container {
+    position: relative;
+    list-style: none;
+    width: 75rem;
+    height: 20rem;
+    top: -5rem;
+    left: 2%;
+
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+}
+
+/*.section9-container li {*/
+/*    float: left;*/
+/*    width: 24rem;*/
+/*    margin-right: 4rem;*/
+
+/*}*/
+
+/*.section9-container li div:first-child {*/
+/*    font-size: 2.2rem;*/
+/*    line-height: 101.38%;*/
+/*    margin-bottom: 1.3rem;*/
+/*}*/
+
+/*.section9-container li div:last-child {*/
+/*    font-size: 1.5rem;*/
+/*    line-height: 101.38%;*/
+/*    margin: 0;*/
+/*}*/
+
+/*Section9 ->Tablet*/
+@media (min-width: 992px) and (max-width: 1279px) {
+    body main section:nth-child(9) {
+        height: 45rem;
+        padding: 10rem 0;
+    }
+
+    .section9-header {
+        top: 1rem;
+        width: 30rem;
+    }
+    .section9-text {
+        font-size: 1.5rem;
+    }
+
+    .section9-price {
+        top: -4rem;
+        font-size: 3.5rem;
+    }
+
+    .section9-container {
+        width: 50rem;
+    }
+    .section9-container li {
+        width: 20rem;
+        margin-right: 5rem;
+        float: left;
+    }
+
+    .section9-container li div:first-child {
+        font-size: 1.5rem;
+    }
+
+    .section9-container li div:last-child {
+        font-size: 1.1rem;
+    }
+
+
+}
+
+/*Section 9 ->Phone*/
+@media (min-width: 321px) and (max-width: 992px) {
+    body main section:nth-child(9) {
+        height: 45rem;
+        padding: 10rem 0;
+    }
+
+    .section9-header {
+        top: 1rem;
+        width: 30rem;
+    }
+
+    .section9-text {
+        font-size: 1.5rem;
+    }
+
+    .section9-price {
+        top: -4rem;
+        font-size: 3.5rem;
+    }
+
+    .section9-container {
+        width: 55rem;
+        left: 1%;
+    }
+
+    .section9-container li {
+        width: 22rem;
+        float: left;
+    }
+
+    .section9-container li div:first-child {
+        font-size: 1.8rem;
+
+    }
+
+    .section9-container li div:last-child {
+        font-size: 1.5rem;
+    }
+}
+
+/*Footer*/
+footer {
+    height: 35rem;
+    background: #000000;
+    color: white;
+}
+
+.footer-logo {
+    position: relative;
+    top: 3rem;
+    left: 4%;
+}
+
+.footer-container2 {
+    position: relative;
+    list-style: none;
+    width: 20rem;
+    height: 5rem;
+    top: 25%;
+    left: 2%;
+}
+
+.footer-container{
+    position: relative;
+    list-style: none;
+    width: 20rem;
+    height: 2rem;
+    top: 25%;
+    left: 4%;
+    padding: 0;
+}
+
+.footer-container li {
+    float: left;
+    margin:0 1rem 0 0;
+
+}
+
+.footer-text {
+    position: relative;
+    width: 20rem;
+    height: 5rem;
+    left: 4%;
+    top: 60%;
+
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.1rem;
+    line-height: 101.38%;
+}
+
+.footer-container2 {
+
+    position: relative;
+    left: 59%;
+    top: -9rem;
+    width: 25rem;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2.1rem;
+    line-height: 101.38%;
+}
+
+.footer-container2 li {
+    padding: 20px;
+}
+
+.footer-container2 li:first-child {
+    list-style-image: url("../images/phone_white.png");
+}
+
+.footer-container2 li:last-child {
+    list-style-image: url("../images/mail_white.png");
+}
+
+/*Footer ->Tablet*/
+@media (min-width: 992px) and (max-width: 1279px) {
+    .footer-container2 {
+        left: 70%;
+        width: 15rem;
+        font-size: 1.3rem;
+    }
+}
+/*Footer ->Phone*/
+@media (min-width: 321px) and (max-width: 992px) {
+    .footer-container2 {
+        top:5%;
+        left: 4%;
+        font-size: 1.1rem;
+    }
+    .footer-container {
+        top:10%;
+    }
+}
+
+
+/*!*!*Desktop*!*!*/
+/*!*@media (min-width: 1280px) {*!*/
+/*!*}*!*/
+
+/*!*!*Tablet*!*!*/
+/*!*@media (min-width: 992px) and (max-width: 1279px) {*!*/
+/*!*    body {*!*/
+/*!*        background: blue;*!*/
+/*!*    }*!*/
+
+/*!*}*!*/
+
+/*!*!*Phone*!*!*/
+/*!*@media (min-width: 321px) and (max-width: 992px) {*!*/
+/*!*    body {*!*/
+/*!*        background: red;*!*/
+/*!*    }*!*/
+/*!*}*!*/
